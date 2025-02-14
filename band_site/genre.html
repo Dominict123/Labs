@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Dominic Thomas - genre</title>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <Header>
+        <h1><a href="index.html">Genre</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://arcticmonkeys.com/">Artic Monkeys</a></li>
+            <li><a href="index.html">Index</a></li>
+        </ul>
+    </nav>
+
+    <main>
+       <form>
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" required>  
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" required>  
+            </div>
+            
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="numBlinks" value="0" min="0" max="120" required>
+            </div>
+
+            <div>
+                <label for="favoriteAlbum">Favorite Album:</label>
+                <select id="favoriteAlbum" name="Favorite Worst Nightmare">
+                    <option value="select">Select</option>
+                    <option value="FWN">Favorite Worst Nightmare</option>
+                    <option value="AM">AM</option>
+                    <option value="TBH&C">Tranquility Base Hotel & Casino</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="albumRating">Album Rating</label>
+                <input type="range" id="albumRating" name="albumRating" value="0" min="0" max="5">
+             </div>
+
+            <div>
+                <fieldset>
+                    <legend>Favorite Genre:</legend>
+                    <label><input type="radio" name="genre" value="indie"> Indie</label>
+                    <label><input type="radio" name="genre" value="rock"> Rock</label>
+                    <label><input type="radio" name="genre" value="indie"> Heavy Metal</label>
+                </fieldset>   
+            </div>
+            
+            <div>
+                <input type="submit" value="Click to Submit">
+                <input type="reset" value="Reset">    
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; Dominic Thomas | <a href="mailto:DThomas235@students.ccsnh.edu">DThomas235@students.ccsnh.edu</a> | 02/14/2025</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
